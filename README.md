@@ -33,4 +33,7 @@ HDMI Mini to HDMI Adapter (optional)|-|-|1|1528-2481-ND
 ## Using The Card
 You will need to supply a Raspberri Pi Zero and copy the correct program to a micro-SD card for the Pi to run. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release, scroll to the bottom of the page, and download the zip file. Copy the files to the micro SD card and install the micro SD card on your Pi 0. Attach the Pi Zero to the video card, making sure to double check the orientation. The Pi Zero should be installed "face down", with pin 1 towards the "top" of the card. Installing the Pi incorrectly will likely kill it.
 
-Set JP1 to match the Denise version in your Amiga. S.Denise = Super Denise (CSG 8373) or Denise (MOS 8362). An incorrect jumper setting will result in a low quality picture. Connect an HDMI cable to the Raspberri Pi and to an HDMI or DVI monitor. If you do not have a support bracket, I strongly encourage you to place a peice of thin cardboard between the video card and the power supply of the Amiga 2000. Tape it in place to ensure the card will not short out on the power supply housing.
+Set JP1 to match the Denise version in your Amiga. S.Denise = Super Denise (CSG 8373) or Denise (MOS 8362). An incorrect jumper setting will result in a low quality image. Connect an HDMI cable to the Raspberri Pi and to an HDMI or DVI monitor. If you do not have a support bracket, I strongly encourage you to place a peice of thin cardboard between the video card and the power supply of the Amiga 2000. Tape it in place to ensure the card will not short out on the power supply housing.
+
+## Revision History
+March 3, 2021 - Initial production release
