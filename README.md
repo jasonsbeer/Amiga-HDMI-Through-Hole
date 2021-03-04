@@ -5,7 +5,7 @@ There are mounting holes to facilitate the use of a support bracket, which could
 ![Video Card Image](Amiga-Card-Thru-Hole.png)
 
 ## PCB Ordering
-The gerber files are available in the [Gerber](/Gerber) folder. Download the file and send to your preferred PCB manufacturer. I've been ordering mine through PLCPCB and am very happy. Most of the options will be set directly from the Gerber file. For the rest, you can select these [options](JLCPCB.png).
+The gerber files are available in the [Gerber](/Gerber) folder. Download the file and send to your preferred PCB manufacturer. I've been ordering mine through JLCPCB and have been happy with the results. Most of the options will be set directly from the Gerber file. For the rest, you can select these [options](JLCPCB.png).
 
 ## PCB Assembly
 Order parts from the BOM list. I have included DigiKey part numbers for reference. Solder the components to the board, noting orientation of the sockets. You can solder the chips directly to the board, but I do not recommend this for DIY projects.
