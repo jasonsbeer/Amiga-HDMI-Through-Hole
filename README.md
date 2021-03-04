@@ -35,5 +35,7 @@ You will need to supply a Raspberri Pi Zero and copy the correct program to a mi
 
 Set JP1 to match the Denise version in your Amiga. S.Denise = Super Denise (CSG 8373) or Denise (MOS 8362). An incorrect jumper setting will result in a low quality image. Connect an HDMI cable to the Raspberri Pi and to an HDMI or DVI monitor. If you do not have a support bracket, I strongly encourage you to place a peice of thin cardboard between the video card and the power supply of the Amiga 2000. Tape it in place to ensure the card will not short out on the power supply housing.
 
+A momentary push button switch may be attached at J2 that will allow access to settings of the Pi software.
+
 ## Revision History
 March 3, 2021 - Initial production release
