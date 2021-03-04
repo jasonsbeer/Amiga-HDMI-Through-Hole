@@ -12,5 +12,13 @@ Order parts from the BOM list. I have included DigiKey part numbers for referenc
 ### BOM
 |Component|Package|Location|QTY|Source|Part Number|
 --- | --- | --- | --- | --- | ---
-LD1117AV33|TO-220-3|U1|1|DigiKey|[497-1485-5-ND](https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117AV33/586006)
-
+SN74AHC86|14-DIP|U1|1|DigiKey|296-4627-5-ND
+SN74AHC574|20-DIP|U2,U3|2|DigiKey|296-4616-5-ND
+LD1117AV33|TO-220-3|U4|1|DigiKey|497-1485-5-ND
+SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
+0.1uF Ceramic Capacitor|Radial|C1-3,5|4|DigiKey|399-14065-1-ND
+10uF Ceramic Capacitor|Radial|C4|1|DigiKey|445-181284-1-ND
+40 Position Female Header|-|J1|1|DigiKey|S6104-ND
+40 Position Male Header (cut to size)|-|J2,JP1|1|DigiKey|S1012EC-40-ND
+14-DIP Socket|14-DIP|U1,4|2|DigiKey|AE9989-ND
+20-DIP Socket|20-DIP|U2-3|2|DigiKey|AE9998-ND
