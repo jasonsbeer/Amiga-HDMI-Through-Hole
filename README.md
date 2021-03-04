@@ -1,6 +1,6 @@
 # Amiga Video Slot to HDMI with Through Hole Components
 This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot. This project installs in the Amiga video slot and makes use of easy to solder through hole components, making it friendly to even the novice DIYer. At the time of writing this, all the components are currently available through DigiKey.
-There are mounting holes to facilitate the 3D printing of a support bracket. A bracket could include a mounting position for an HDMI socket and a momentary switch for use with the card. If anyone wants to design and share a bracket, that would be very helpful.
+There are mounting holes to facilitate the use of a support bracket, which could be 3D printed. This bracket could include a mounting position for an HDMI panel mount socket and a momentary switch for use with the card. If anyone wants to design and share a bracket, that would be very helpful.
 
 ![Video Card Image](Amiga-Card-Thru-Hole.png)
 
@@ -24,6 +24,11 @@ SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
 2x1 Male Header|-|J2|1|DigiKey|732-5315-ND
 Jumper|-|JP1|1|DigiKey|609-6251-ND
 3.3k Resistor|Axial|R1|1|DigiKey|3.3KQBK-ND
-1k Resistor|Axial|R2|1|DigiKey|
+1k Resistor|Axial|R2|1|DigiKey|1.0KQBK-ND
 14-DIP Socket|14-DIP|U1,4|2|DigiKey|AE9989-ND
 20-DIP Socket|20-DIP|U2-3|2|DigiKey|AE9998-ND
+Panel Mount HDMI Cable (optional)|-|-|1|1528-1575-ND
+HDMI Mini to HDMI Adapter (optional)|-|-|1|1528-2481-ND
+
+## Using The Card
+You will need to supply a Raspberri Pi 0 and copy the correct program to a micro-SD card for the Pi to run. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release and download the files. Copy the files to the micro SD card and install the micro SD card on your Pi 0. Attach the Pi 0 to the video card, making sure to double check the orientation. The Pi 0 should be installed "face down", with pin 1 towards the top of the card.
