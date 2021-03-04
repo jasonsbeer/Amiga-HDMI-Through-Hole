@@ -1,5 +1,5 @@
 # Amiga Video Slot to HDMI with Through Hole Components
-This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot. I beleive in simplicity. This project installs in the Amiga video slot and makes use of easy to solder through hole components, making it friendly to even the novice DIYer. All the components are currently available through DigiKey, meaning they are easy to obtain.
+This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot. I beleive in simplicity. This project installs in the Amiga video slot and makes use of easy to solder through hole components, making it friendly to even the novice DIYer. All the components are currently available through DigiKey, meaning they are readily available and easy to obtain.
 
 ![Video Card Image](Amiga-Card-Thru-Hole.png)
 
@@ -12,4 +12,5 @@ Order parts from the BOM list. I have included DigiKey part numbers for referenc
 ### BOM
 |Component|Package|Location|QTY|Source|Part Number|
 --- | --- | --- | --- | --- | ---
-4Mx16 DRAM|TSOP(II)| U6 | 1 | Ali Express or E-Bay| K4E641612D or GM71VS65163
+LD1117AV33|TO-220-3|U1|1|DigiKey|[497-1485-5-ND](https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117AV33/586006)
+
