@@ -10,14 +10,13 @@ The gerber files are available in the [Gerber](/Gerber) folder. Download the fil
 ## PCB Assembly
 Order parts from the BOM list. I have included DigiKey part numbers for reference. Solder the components to the board, noting orientation of the sockets. You can solder the chips directly to the board, but I do not recommend this for DIY projects.
 
-### BOM
+### v1.1 BOM
 |Component|Package|Location|QTY|Source|Part Number|
 --- | --- | --- | --- | --- | ---
 SN74AHC86|14-DIP|U1|1|DigiKey|296-4627-5-ND
 SN74AHC574|20-DIP|U2-3|2|DigiKey|296-4616-5-ND
 LD1117AV33|TO-220-3|U4|1|DigiKey|497-1485-5-ND
-SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
-14-DIP Socket|14-DIP|U1,5|2|DigiKey|AE9989-ND
+14-DIP Socket|14-DIP|U1|1|DigiKey|AE9989-ND
 20-DIP Socket|20-DIP|U2-3|2|DigiKey|AE9998-ND
 0.1uF Ceramic Capacitor|Radial|C1-3,5|4|DigiKey|399-14065-1-ND
 10uF Ceramic Capacitor|Radial|C4|1|DigiKey|445-181284-1-ND
@@ -26,9 +25,15 @@ SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
 Jumper|-|JP1|1|DigiKey|609-6251-ND
 2x1 Male Header|-|J2|1|DigiKey|732-5315-ND
 3.3k Resistor|Axial|R1|1|DigiKey|3.3KQBK-ND
-1k Resistor|Axial|R2|1|DigiKey|1.0KQBK-ND
 Panel Mount HDMI Cable (optional)|-|-|1|DigiKey|1528-1575-ND
 HDMI Mini to HDMI Adapter (optional)|-|-|1|DigiKey|1528-2481-ND
+
+Version 1.0 - Add these parts.
+|Component|Package|Location|QTY|Source|Part Number|
+--- | --- | --- | --- | --- | ---
+SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
+1k Resistor|Axial|R2|1|DigiKey|1.0KQBK-ND
+14-DIP Socket|14-DIP|U5|1|DigiKey|AE9989-ND
 
 ## Using The Card
 You will need to supply a Raspberry Pi Zero and copy the correct program to a micro-SD card for the Pi to run. The standard (non-W) version of the Pi Zero works fine and is cheaper. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release, scroll to the bottom of the page, and download the zip file. Unzip and copy the files to the micro SD card and install the micro SD card on the Pi Zero. Attach the Pi Zero to the video card, making sure to double check the orientation. The Pi Zero should be installed "face down", with pin 1 towards the "top" of the card. Installing the Pi incorrectly will likely kill it.
@@ -40,4 +45,4 @@ A momentary push button switch may be attached at J2 that will allow access to s
 ## Revision History
 March 3, 2021 - V1.0 Initial production release
 
-March 4, 2021 - v1.1 Deleted U5 and R2 due to redundancy
+March 4, 2021 - v1.1 Routed /C1 and /C3 to U4 pins 3 and 4 which allows deletion of U5 and R2
