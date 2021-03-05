@@ -38,4 +38,6 @@ Set JP1 to match the Denise version in your Amiga. S.Denise = Super Denise (CSG 
 A momentary push button switch may be attached at J2 that will allow access to settings of the Pi software.
 
 ## Revision History
-March 3, 2021 - Initial production release
+March 3, 2021 - V1.0 Initial production release
+
+March 4, 2021 - v1.1 Deleted U5 and R2 due to redundancy
