@@ -28,7 +28,7 @@ Jumper|-|JP1|1|DigiKey|609-6251-ND
 Panel Mount HDMI Cable (optional)|-|-|1|DigiKey|1528-1575-ND
 HDMI Mini to HDMI Adapter (optional)|-|-|1|DigiKey|1528-2481-ND
 
-Version 1.0 - Add these parts.
+Version 1.0 - Add these parts only if building v1.0.
 |Component|Package|Location|QTY|Source|Part Number|
 --- | --- | --- | --- | --- | ---
 SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
@@ -45,4 +45,4 @@ A momentary push button switch may be attached at J2 that will allow access to s
 ## Revision History
 V1.0 Initial production release
 
-v1.1 Routed /C1 and /C3 to U4. Delete U5 and R2
+v1.1 Routed /C1 and /C3 to U1. Delete U5 and R2
