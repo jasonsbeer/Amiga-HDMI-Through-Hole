@@ -1,5 +1,5 @@
 # Amiga Video Slot to HDMI with Through Hole Components
-This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot and easy to solder through hole components, making it friendly for even the novice DIYer. At the time of writing this, all the components are currently available through DigiKey.
+This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot and easy to solder through hole components, making it friendly for even the novice DIYer. At the time of writing this, all the components are available through DigiKey.
 There are mounting holes to facilitate the use of a support bracket, which could be 3D printed. This bracket could include a mounting position for an HDMI panel mount socket and a momentary switch for use with the card. If anyone wants to design and share a bracket, that would be very helpful.
 
 ![Video Card Image](Amiga-Card-Thru-Hole.png)
@@ -36,13 +36,13 @@ SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
 14-DIP Socket|14-DIP|U5|1|DigiKey|AE9989-ND
 
 ## Using The Card
-You will need to supply a Raspberry Pi Zero and copy the correct program to a micro-SD card for the Pi to run. The standard (non-W) version of the Pi Zero works fine and is cheaper. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release, scroll to the bottom of the page, and download the zip file. Unzip and copy the files to the micro SD card and install the micro SD card on the Pi Zero. Attach the Pi Zero to the video card, making sure to double check the orientation. The Pi Zero should be installed "face down", with pin 1 towards the "top" of the card. Installing the Pi incorrectly will likely kill it.
+You will need to supply a Raspberry Pi Zero and copy the correct program to a micro-SD card for the Pi to run. The standard (non-W) version of the Pi Zero works fine and is cheaper. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release, scroll to the bottom of the page, and download the zip file. Unzip and copy the files to the micro SD card and insert the micro SD card in the Pi Zero. Attach the Pi Zero to the video card, making sure to double check the orientation. The Pi Zero should be installed "face down", with pin 1 towards the "top" of the card. Installing the Pi incorrectly will likely kill it.
 
 Set JP1 to match the Denise version in your Amiga. S.Denise = Super Denise (CSG 8373) or Denise (MOS 8362). An incorrect jumper setting will result in a low quality image. Connect an HDMI cable to the Raspberri Pi and to an HDMI or DVI monitor. If you do not have a support bracket, I strongly encourage you to place a peice of thin cardboard between the video card and the power supply of the Amiga 2000. Tape it in place to ensure the card will not short out on the power supply housing.
 
 A momentary push button switch may be attached at J2 that will allow access to settings of the Pi software.
 
 ## Revision History
-V1.0 Initial production release
+v1.0 Initial production release
 
 v1.1 Routed /C1 and /C3 to U1. Delete U5 and R2
