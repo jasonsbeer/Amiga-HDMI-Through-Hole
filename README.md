@@ -29,13 +29,6 @@ Jumper|-|JP1|1|DigiKey|609-6251-ND
 Panel Mount HDMI Cable (optional)|-|-|1|DigiKey|1528-1575-ND
 HDMI Mini to HDMI Adapter (optional)|-|-|1|DigiKey|1528-2481-ND
 
-Version 1.0 - Add these parts only if building v1.0.
-|Component|Package|Location|QTY|Source|Part Number|
---- | --- | --- | --- | --- | ---
-SN74HC266|14-DIP|U5|1|DigiKey|296-8294-5-ND
-1k Resistor|Axial|R2|1|DigiKey|1.0KQBK-ND
-14-DIP Socket|14-DIP|U5|1|DigiKey|AE9989-ND
-
 ## Using The Card
 You will need to supply a Raspberry Pi Zero and copy the correct program to a micro-SD card for the Pi to run. The standard (non-W) version of the Pi Zero works fine and is cheaper. You can obtain the current software release from the [RGBtoHDMI](https://github.com/hoglet67/RGBtoHDMI/releases) project page. Click on the link of the newest release, scroll to the bottom of the page, and download the zip file. Unzip and copy the files to the micro SD card and insert the micro SD card in the Pi Zero. Attach the Pi Zero to the video card, making sure to double check the orientation. The Pi Zero should be installed "face down", with pin 1 towards the "top" of the card. Installing the Pi incorrectly will likely kill it.
 
