@@ -1,7 +1,7 @@
 # Amiga Video Slot to HDMI with Through Hole Components
 This project was inspired by the [Amiga Digital Video](https://github.com/c0pperdragon/Amiga-Digital-Video) project by c0pperdragon. This design makes use of the Amiga 2000/3000 video slot and easy to solder through hole components, making it friendly for even the novice DIYer. At the time of writing this, all the components are available through DigiKey. This has been tested with both standard and Super Denise on Amiga 2000 rev 4.x and 6.x boards. The picture output is outstanding. It should be fully compatable with the Amiga 3000, but I do not have access to one for testing.
 
-There are mounting holes to facilitate the use of a support bracket, which could be 3D printed. This bracket could include a mounting position for an HDMI panel mount socket and a momentary switch for use with the card. If anyone wants to design and share a bracket, that would be very helpful.
+There are mounting holes to facilitate the use of a support bracket, which can be 3D printed. The bracket files can be found [here](/STL).
 
 ![Video Card Image](Amiga-Card-Thru-Hole.png)
 
